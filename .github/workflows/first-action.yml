@@ -1,0 +1,12 @@
+name: Demo-Workflow
+on: workflow_dispatch
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome
+        run: echo "Hello World!"
+      - name: End of workflow
+        run: echo "Bye we are done for the day"
+  
+  
